@@ -1,5 +1,7 @@
 let total = 0
 let carrinho = document.getElementById("lista-produtos");
+limpar()
+
 function adicionar() {
     //adiciona produtos ao carrinho de compras com sua quantidade
     //calcula valor total da compra
